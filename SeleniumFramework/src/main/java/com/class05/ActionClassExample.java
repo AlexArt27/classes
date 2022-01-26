@@ -20,5 +20,6 @@ public class ActionClassExample {
 
         Actions action = new Actions(driver);
         action.keyDown(Keys.COMMAND).click(signLink).keyUp(Keys.COMMAND).build().perform();
+
     }
 }

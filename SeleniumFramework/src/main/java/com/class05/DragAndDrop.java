@@ -20,13 +20,21 @@ public class DragAndDrop {
 
         driver.switchTo().frame(iframeEle);
 
+//        WebElement pic = driver.findElement(By.xpath("//h5[text()='High Tatras']"));
+//        WebElement trashArea = driver.findElement(By.id("trash"));
+//
+//        Actions action = new Actions(driver);
+//
+//        action.dragAndDrop(pic,trashArea).build().perform();
+
+
         List<WebElement> elms = driver.findElements(By.xpath("//ul[@id='gallery']/li"));
 
         WebElement trashArea = driver.findElement(By.id("trash"));
         Actions action = new Actions(driver);
         for (WebElement elm:elms) {
-            action.dragAndDrop(elm,trashArea).build().perform();
-            Thread.sleep(500);
+            action.dragAndDrop(elm,trashArea).pause(500).build().perform();
+//            Thread.sleep(500);
         }
 
     }

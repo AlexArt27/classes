@@ -2,8 +2,8 @@ package DummyCode;
 
 public class DummyCode6 {
     public static void main(String[] args) {
-        int data[][] = new int[4][5];
+        String str = "Alex";
 
-        System.out.println(data.length);
+        System.out.println(str.substring(0,3));
     }
 }
