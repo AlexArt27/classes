@@ -21,6 +21,7 @@ public class HandlingDisabledElems {
         WebElement checkBx3 = driver.findElement(By.id("LH_Sold"));
 
         checkBx1.click();
+
         System.out.println(checkBx1.isEnabled());
         System.out.println(checkBx2.isEnabled());
         System.out.println(checkBx3.isEnabled());

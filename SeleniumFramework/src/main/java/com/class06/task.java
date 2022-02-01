@@ -16,10 +16,10 @@ public class task {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        // IMPLICIT Selenium versio < 4 SYNTAX:
+        // IMPLICIT Selenium version < 4 SYNTAX:
 //        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
-        // IMPLICIT Selenium versio >= 4 SYNTAX:
+        // IMPLICIT Selenium version >= 4 SYNTAX:
 
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
