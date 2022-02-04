@@ -1,0 +1,15 @@
+// Create driver
+	WebDriver driver = new Chromedriver();
+	// Create WebElement
+	WebElement ele = driver.findElement(By.id(""));
+	// Methods from WebDriver
+	driver.get("url");
+	driver.close();
+	driver.findElement();
+	driver.manage().window().maximize();
+	driver.deleteAllCookies();
+	// Methods from WebElement
+	ele.sendKeys("");
+	ele.click();
+	ele.getAttribute("");
+	ele.getText();
