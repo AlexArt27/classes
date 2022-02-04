@@ -10,5 +10,8 @@
         <module name="devx-testng-automation-framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="devx-testng-automation-framework" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
